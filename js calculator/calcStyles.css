@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+/* BODY STYLES */
+
+body{
+    background:white;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    font-size: 22px;
+    font-family: 'Orbitron', sans-serif
+}
+
+html{ 
+    height:100%;
+}
+
+/* HEADER STYLES*/ 
+
+.header{
+    text-align: center;
+    background-color: #D09FFF;
+    padding: 5px 0px 5px;
+    border: 5px solid black;
+}
+
+h1{
+    font-size: 40px;
+    margin: 10px 0px;
+
+}
+
+/* CALC CONTAINER */
+#calculator{
+    width:450px;
+    height: 580px;
+    margin:20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:#6EFFDA;
+    padding-top:20px;
+}
+/*DISPLAY CLEAR DELETE STYLES */
+#display{background-color: rgb(255, 255, 255);
+height:40px;
+border: black solid 2px;
+padding-top: 5px;
+text-align: right;
+float:none;
+margin:0 auto;
+}
+
+.clear, .delete{
+    height:50px;
+    border-radius: 25px;
+    background-color:#F9F871;
+    text-align: center;
+    margin-top:20px;
+    margin-right:16px;
+}
+#clearDelete{
+    width:100%;
+
+
+}
+/* NUMBER ROWS */
+button{
+height: 60px;
+margin: 14px;
+border-radius: 38px;
+width:80px;
+border: black solid .5px;
+font-size: 20px;
+}
+ 
+button:hover{
+    background-color: #11CDC4;
+    font-size:23px;
+   
+
+}
+.operator{
+    background-color: #F9F871;
+    font-size:22px;
+}
+.operator:hover{
+    background-color:maroon;
+    color:lightsalmon;
+    font-size:22px;
+
+}
+
+#equal{
+    background-color:#F9F871;
+}
+#equal:hover{
+    background-color:#00C5FF;
+    font-size:22px;
+}
+.clear:hover,.delete:hover{
+background-color: maroon;
+color:hotpink;
+font-size:22px;
+}
+#sqrt{
+  
+}
